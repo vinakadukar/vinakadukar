@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input id=" itemInput" type="text" value="" placeholder="enter todo item"/>
+    <button onclick="addItems">ADD</button>
+    <ul id="listItems"></ul>
+    <script>
+        let input= document.getElementById("itemInput");
+        console.log("INPUT=",input);
+        function addItems(){
+        let ulList= document.getElementById("listItems");}
+        console.log("LIST=",ulList);
+        function addItems(){
+            let todoItems=input.value
+            console.log("TODO ITEMS=",todoItems);
+            ulList.innerHTML= todoItems;
+        }
+    </script>
+</body>
+</html>
